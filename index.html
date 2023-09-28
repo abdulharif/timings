@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <button type="submit" class="btn" onclick="openForm()">Submit</button>
+    <div class="form-pop" id="myForm">
+       <img src="right.jpg">
+        
+ <h2>THANK YOU !</h2>
+        <p>Your Details Succseefully Submitted </p>
+    <button type="button" onclick="closeForm()">OK</button>
+    </div>
+    </div>
+    </form>
+
+    <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+        </script>
+
+    
+    
+</body>
+</html>
